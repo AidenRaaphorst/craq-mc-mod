@@ -11,6 +11,6 @@ public class CraqMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		Items.register();
+		Items.registerItems();
 	}
 }
