@@ -1,6 +1,7 @@
 package net.craqbois.craq.item;
 
 import net.minecraft.advancement.criterion.Criteria;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -10,7 +11,11 @@ import net.minecraft.item.Items;
 import net.minecraft.item.MilkBucketItem;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.stat.Stats;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class ThickFluidBucketItem extends MilkBucketItem {
 
@@ -41,5 +46,12 @@ public class ThickFluidBucketItem extends MilkBucketItem {
         }
 
         return stack;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
+        tooltip.add(Text.translatable("item.craq.thick_fluid_bucket.tooltip1").formatted(Formatting.DARK_PURPLE));
+        tooltip.add(Text.translatable("item.craq.thick_fluid_bucket.tooltip2").formatted(Formatting.DARK_PURPLE));
+        tooltip.add(Text.translatable("item.craq.thick_fluid_bucket.tooltip3").formatted(Formatting.DARK_PURPLE));
     }
 }

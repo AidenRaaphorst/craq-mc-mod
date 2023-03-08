@@ -1,4 +1,7 @@
 {
   "item.craq.aiden": "Aiden",
-  "item.craq.thick_fluid_bucket": "Bucket of... Thick Fluid..."
+  "item.craq.thick_fluid_bucket": "Bucket of... Thick Fluid...",
+  "item.craq.thick_fluid_bucket.tooltip1": "Legend has it that this bucket",
+  "item.craq.thick_fluid_bucket.tooltip2": "has been passed on by many",
+  "item.craq.thick_fluid_bucket.tooltip3": "generations"
 }
