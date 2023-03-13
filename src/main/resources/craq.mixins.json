@@ -4,6 +4,7 @@
   "package": "net.craqbois.craq.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EntityDataSaverMixin"
   ],
   "client": [
     "ExampleMixin"
