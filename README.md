@@ -13,6 +13,7 @@ School gave us a choice on what to do for a project, and we chose to make a Mine
 Also, just because, lmao.
 
 # Todo/Ideas
+* Durability to Jonko
 * Add smoke meter
 * Revert controls when high.
 * Jump higher when high
